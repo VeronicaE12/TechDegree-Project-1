@@ -21,7 +21,10 @@ a {
 a:hover {
   color: #6633ff;
 }
-
+h2 {
+  color: #FA4673;
+  border-bottom: solid 2px #385270;
+}
 /* Section Styles */
 
 .main-nav {
@@ -71,8 +74,8 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 2px solid white;
+  transition: all .7s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
@@ -114,7 +117,21 @@ header .profile-image:hover {
   margin: 50px;
   padding: 50px 40px 40px;
   max-width: 500px;
-
+}
+.hobbies {
+  display: block;
+  clear: both;
+  margin: 0 auto;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.mountains {
+  margin-left: 50px;
 }
 ul.skills {
   padding: 0;
